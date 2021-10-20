@@ -1,9 +1,5 @@
 export {};
 
-/**
- * never type
- */
-
 interface Circle {
     kind: "circle";
     radius: number;
@@ -27,5 +23,3 @@ function getArea(shape: Shape) {
             return _exhaustiveCheck;
     }
 }
-
-export {};
